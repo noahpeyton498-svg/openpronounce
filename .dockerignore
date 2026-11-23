@@ -1,0 +1,7 @@
+# The Dockerfile clones upstream itself; only the patch script and the
+# entrypoint are needed.
+*
+!Dockerfile
+!cloudrun_patch_server.py
+!cloudrun_entrypoint.sh
+!README.md
